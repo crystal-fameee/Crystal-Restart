@@ -6,9 +6,9 @@ author: Crystal SMP
 description: Safe 60-second server restart.
 
 commands:
-  restart:
+  saferestart:
     description: Starts safe restart
-    permission: crystaleffects.restart
+    permission: crystaleffects.saferestart
   restartset:
     description: Sets safe restart location
     permission: crystaleffects.restart.set
