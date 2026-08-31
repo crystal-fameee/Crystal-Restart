@@ -1,0 +1,23 @@
+name: Crystal-SafeRestart
+version: 1.0.0
+main: me.crystalsmp.saferestart.CrystalSafeRestart
+api-version: '1.21'
+author: Crystal SMP
+description: Safe 60-second server restart.
+
+commands:
+  restart:
+    description: Starts safe restart
+    permission: crystaleffects.restart
+  restartset:
+    description: Sets safe restart location
+    permission: crystaleffects.restart.set
+  restartcancel:
+    description: Cancels safe restart
+    permission: crystaleffects.restart
+
+permissions:
+  crystaleffects.restart:
+    default: op
+  crystaleffects.restart.set:
+    default: op

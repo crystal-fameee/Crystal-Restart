@@ -1,0 +1,20 @@
+countdown-seconds: 60
+
+safe-location:
+  world: world
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+messages:
+  prefix: "&8[&5Crystal-SMP&8] "
+  started: "&dПерезагрузка сервера начнётся через &f%seconds% &dсекунд!"
+  teleported: "&aВсе игроки перемещены в безопасную зону."
+  countdown: "&eПерезагрузка сервера через &f%seconds% &eсек."
+  cancelled: "&aПерезагрузка отменена."
+  no-location: "&cБезопасная точка не настроена. Выполните &f/restartset&c."
+  already-running: "&cПерезагрузка уже запущена."
+  no-permission: "&cУ вас нет прав."
+  location-set: "&aБезопасная точка сохранена."
