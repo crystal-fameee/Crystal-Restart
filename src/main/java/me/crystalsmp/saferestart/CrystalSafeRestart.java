@@ -102,7 +102,7 @@ public final class CrystalSafeRestart extends JavaPlugin implements Listener {
     }
 
     @Override public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
-        if (cmd.getName().equalsIgnoreCase("restart")) {
+        if (cmd.getName().equalsIgnoreCase("saferestart")) {
             if (!s.hasPermission("crystaleffects.restart")) { s.sendMessage(m("no-permission")); return true; }
             start(s); return true;
         }
